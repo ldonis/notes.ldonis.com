@@ -1,0 +1,59 @@
+/*
+* ldonis.com - My personal notes
+*
+* This work is licensed under a [Creative Commons Attribution 4.0
+* International license](https://creativecommons.org/licenses/by/4.0/).
+*
+* @author   Luis Donis <emc2@ldonis.com>
+* @license  CC BY 4.0
+* @version  1.0.0
+* @link     https://slides.ldonis.com
+*/
+
+
+// · Including Lesli CSS
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+@import '../../node_modules/leslicss/lesli';
+
+
+// · Including variables
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+@import 'variables';
+
+
+// · Fonts
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+// · https://fonts.google.com/specimen/Pinyon+Script?selection.family=Montserrat:300,400|Pinyon+Script
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display');
+
+
+// · Global dom styles
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+@include lesli-base();
+
+* {
+    outline: none;
+    color: $color-black;
+    font-family: $font-family-body;
+    font-weight: $font-weight-normal;
+}
+
+html,
+body {
+    color: $color-black;
+    font-family: $font-family-body;
+    font-weight: $font-weight-normal;
+    font-size: 16px;
+}
+
+
+hr {
+    width: 50%;
+    border:none;
+    height: 20px;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    box-shadow: 0 20px 20px -20px rgb(210, 210, 210);
+    margin: -50px auto 10px; 
+}

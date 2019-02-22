@@ -1,0 +1,14 @@
+{
+    "name": "notes.ldonis.com",
+    "title": "My personal notes",
+    "homepage": "https://notes.ldonis.com",
+    "author": "Luis Donis <emc2@ldonis.com>",
+    "license": "CC BY 4.0",
+    "dependencies": {},
+    "devDependencies": {
+        "leslicss": "git+https://github.com/LesliTech/LesliCSS.git#master"
+    },
+    "scripts": {
+
+    }
+}
