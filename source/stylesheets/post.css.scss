@@ -9,3 +9,52 @@
 * @version  1.0.0
 * @link     https://slides.ldonis.com
 */
+
+
+// · Template
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+@import 'template';
+
+
+header {
+    height: 45vh;
+}
+
+
+// · 
+// · ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~     ~·~
+section.blog {
+
+    article {
+        width: 900px;
+        margin: 0 auto;
+        padding: 5rem 3rem;
+
+        div.post_header {
+
+            div.icon {
+                margin-bottom: 2rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }   
+
+        }
+
+        hr {
+            width: 90%;
+            margin-bottom: 2.4rem;
+        }
+
+        div.post_content {
+
+            p {
+                font-size: 1.2rem;
+            }
+
+        }
+                    
+    }
+
+}

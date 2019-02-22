@@ -4,11 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>default layout <%= current_page.data.title %> &bull; ldonis - slides for talks &amp; workshops</title>
+        <title>ldonis notes</title>
         <%= stylesheet_link_tag "site" %>
         <%= javascript_include_tag "site" %>
     </head>
     <body>
+        <%= partial "partials/header" %>
         <%= yield %>
+        <%= partial "partials/footer" %>
     </body>
 </html>
